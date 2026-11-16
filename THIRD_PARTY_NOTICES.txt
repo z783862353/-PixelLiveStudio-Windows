@@ -1,0 +1,9 @@
+Third-party notices
+
+FFmpeg
+The Windows build workflow obtains FFmpeg Essentials from Gyan Doshi's Windows builds:
+https://www.gyan.dev/ffmpeg/builds/
+FFmpeg licensing information:
+https://www.ffmpeg.org/legal.html
+The app launches ffmpeg.exe and ffprobe.exe as separate child processes; they are bundled into the single-file PyInstaller package for convenient distribution.
+Check the exact FFmpeg build's configuration and corresponding source-code links on the distributor's build page before redistribution outside personal use.

@@ -1,0 +1,2 @@
+# GUI uses Python standard library; PyInstaller is needed only to build the Windows EXE.
+pyinstaller>=6.0

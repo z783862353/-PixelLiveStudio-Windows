@@ -1,0 +1,18 @@
+Pixel Live Studio - Windows 独立仓库
+====================================
+
+本包用于建立独立 GitHub 仓库，云端自动编译 Windows EXE。
+
+GitHub 仓库建议名称：PixelLiveStudio-Windows
+
+上传方式：
+1. 在 GitHub 创建一个空仓库，建议选择 Private。
+2. 解压本 ZIP。
+3. 把解压后文件夹里面的所有内容上传到新仓库根目录。
+4. 必须保留 .github/workflows/build-windows.yml。
+5. 点击 Commit changes。
+6. 打开 Actions，等待 Build Pixel Live Studio for Windows 成功。
+7. 回到仓库的 Releases 页面，下载 PixelLiveStudio.exe。
+
+请上传“本文件所在文件夹里面的内容”，不要把 ZIP 文件本身上传。
+不要把这些 Windows 文件上传到 Android 仓库。

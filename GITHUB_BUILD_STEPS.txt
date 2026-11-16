@@ -1,0 +1,20 @@
+Pixel Live Studio：云端自动生成 Windows EXE
+============================================
+
+你不需要安装 Python、Visual Studio 或 FFmpeg。
+
+只需要把本文件夹里的项目文件上传到自己的 GitHub 仓库，GitHub 会自动在 Windows 云端编译。
+
+步骤：
+1. 在 GitHub 新建仓库，名称填写 PixelLiveStudio。建议选择 Private（私有）。
+2. 进入仓库，点 Add file（添加文件）→ Upload files（上传文件）。
+3. 解压本项目 ZIP，打开解压后的 PixelLiveStudio_CloudBuild 文件夹。
+4. 选中里面的全部内容，注意 .github 文件夹也要一起选择，然后拖进 GitHub 上传页面。
+5. 点击 Commit changes（提交更改）。
+6. 打开 Actions，查看 Build Pixel Live Studio for Windows。等它显示绿色勾。
+7. 打开仓库的 Releases，下载 PixelLiveStudio.exe。
+
+仓库地址创建后通常是：
+https://github.com/你的GitHub用户名/PixelLiveStudio
+
+注意：目前是 MVP。文件结构和嵌入视频可进行本地校验，但尚未用三星 S24+ 和抖音实机完成验收，不能承诺抖音一定识别。请先用一段 2–3 秒的视频测试。
